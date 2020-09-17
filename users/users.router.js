@@ -25,4 +25,5 @@ router.post('/', (req, res) => {
     res.status(500).json({errorMessage: 'unable to create user at this time'})
   })
 })
+
 module.exports = router;
